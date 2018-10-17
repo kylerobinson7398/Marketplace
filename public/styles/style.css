@@ -1,0 +1,353 @@
+#createAccountBody,
+#loginBody {
+  font-family: "Slabo 27px", serif;
+  font-family: "Source Serif Pro", serif;
+  height: 100%;
+}
+html {
+  height: 100%;
+}
+
+/* index page */
+
+#indexBody{
+  background-color: rgb(245, 245, 245);
+  margin-bottom:50px
+}
+
+#indexImage {
+  text-align: right;
+}
+
+#categorylist {
+  padding: 10px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.price {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.main {
+  padding-bottom: 40px;
+}
+
+.information {
+  padding-left: 40px;
+}
+
+.searchC{
+  font-family: "Charmonman", cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#categorylist{
+  text-align: right;
+}
+
+#submitButton{
+  font-family: "Charmonman", cursive;
+  font-size: 18px;
+  background-color:rgb(230, 166, 165);
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: "Charmonman", cursive;
+  font-size: 40px;
+  margin-left: 150px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.item {
+  font-family: "Charmonman", cursive;
+  color: black;
+  padding: 20px;
+  font-weight: 550;
+  font-size: 20px;
+}
+
+#nav {
+  float: right;
+  margin-top: 45px;
+}
+
+header {
+  background-image: url("../styles/assets/images/header\ background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: center;
+  height: 100px;
+  color: black;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0 #ffffff, 2px 2px 0 #000000;
+  margin-left: 20px;
+}
+
+/* login page */
+@keyframes example {
+  0% {
+    background-color: rgb(255, 235, 205);
+  }
+  25% {
+    background-color: rgb(212, 205, 196);
+  }
+  50% {
+    background-color: rgb(230, 166, 165);
+  }
+  100% {
+    background-color: rgb(216, 191, 155);
+  }
+}
+
+#loginBody,
+#createAccountBody,
+#postAdBody {
+  background-color: rgb(212, 205, 196);
+  animation-name: example;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+#loginHead {
+  text-align: center;
+  font-family: "Charmonman", cursive;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#loginPage {
+  height: 100%;
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url("assets/images/login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#loginForm {
+  width: 350px;
+  margin-left: 15%;
+  margin-right: 15%;
+  position: absolute;
+  top: 20%;
+}
+
+#emailAddressL,
+#passwordL {
+  opacity: 0.7;
+}
+
+#loginButton {
+  text-align: center;
+}
+
+#lgnn,
+#return,
+#enter,
+#back {
+  background-color: blanchedalmond;
+  font-family: "Charmonman", cursive;
+  color: black;
+  font-weight: 600;
+}
+
+/* createAccount page */
+
+#signUp {
+  height: 100%;
+  width: 500px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url("assets/images/createAccount.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#signUpForm {
+  width: 350px;
+  margin-left: 12%;
+  margin-right: 15%;
+  padding: 20px;
+  position: absolute;
+  top: 20%;
+}
+
+#signUpHead {
+  text-align: center;
+  font-family: "Charmonman", cursive;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  background-color: rgb(131, 62, 61);
+  opacity: 0.9;
+}
+
+/* postAd page */
+
+#postAdPage {
+  width: 650px;
+  position: relative;
+  margin: 0 auto;
+  background-image: url("assets/images/postAd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px;
+}
+
+#postAdHead {
+  text-align: center;
+  font-family: "Charmonman", cursive;
+  font-size: 35px;
+  font-weight: 600;
+  color: black;
+}
+
+#date,
+#firstNameP,
+#lastNameP,
+#image,
+#price,
+#descriptionP,
+#titleP,
+#categoryP,
+#emailP {
+  font-family: "Charmonman", cursive;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+#description {
+  height: 100px;
+}
+
+#postAd {
+  background-color: white;
+  opacity: 0.8;
+  padding: 15px;
+}
+
+#postAdFooter {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgb(131, 62, 61);
+  font-family: "Charmonman", cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* feedback page */
+#feedbackHead {
+  text-align: center;
+  font-family: "Charmonman", cursive;
+  font-size: 35px;
+  color: black;
+}
+
+th {
+  text-align: center;
+  font-family: "Charmonman", cursive;
+  font-size: 20px;
+  color: black;
+}
+
+#datePostedP,
+#firstNameP,
+#lastNameP,
+#feedbackP {
+  font-family: "Charmonman", cursive;
+  font-size: 20px;
+  color: black;
+}
+
+#feedback {
+  height: 100px;
+}
+
+#feedbackTable {
+  width: 725px;
+  float: left;
+  position: absolute;
+}
+
+#opinions {
+  width: 575px;
+  float: right;
+  background-color: white;
+  padding: 15px;
+  opacity: 0.9;
+}
+
+#main {
+  padding: 20px;
+}
+
+#feedbackBody {
+  margin: 0 auto;
+  background-image: url("assets/images/feedback.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* individualAds page */
+
+#individualAdsBody {
+  margin: 0 auto;
+  background-image: url("assets/images/individualAd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+#adImage {
+  float: left;
+  position: relative;
+}
+
+#adCard {
+  padding: 50px;
+}
+
+#adDescription {
+  text-align: left;
+  width: 250px;
+}
+
+.card-link {
+  font-family: "Charmonman", cursive;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background-color: rgb(131, 62, 61);
+  font-family: "Charmonman", cursive;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}

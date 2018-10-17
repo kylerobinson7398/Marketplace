@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Marketplace</title>
+  <link rel="stylesheet" href="../styles/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Charmonman:400,700" rel="stylesheet">
+
+  <script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+
+</head>
+
+
+<body id="indexBody">
+  <header>
+    <a class="navbar-brand" href="/">Marketplace</a>
+    <div class="insertNav" id="nav">
+      <!-- Nav will get filled in here-->
+    </div>
+  </header>
+  <br>
+
+  <form id="categorylist" action="/api/posts/category" method="GET">
+    <label class="searchC" for="search">Search by Category</label>
+    <input list="category" name="category">
+    <datalist id="category">
+      <option value="electronics">
+      <option value="Furniture">
+      <option value="Homedecore">
+      <option value="Cars">
+      <option value="Hardware">
+    </datalist>
+    <input id="submitButton" type="submit">
+  </form>
+
+  <div id="homepage" class="container">
+    <div class="row main">
+    </div>
+
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <span>Marketplace - Buy, Sell, Discover</span>
+    </div>
+  </footer>
+
+
+  <script src="../javascript/loadIndex.js"></script>
+
+  <script src="../javascript/firebase.js"></script>
+</body>
+
+</html>
